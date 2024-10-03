@@ -9,20 +9,21 @@ This project demonstrates robust API automation using **Rest Assured**, executed
 
 ## 🛠️ **Technologies and Tools** 🛠️
 
-- **Java**  
-- **Gradle**  
-- **Allure**  
-- **IntelliJ**  
+- 🛠️ **Java** – Core language for API automation  
+- 🛠️ **Gradle** – Build automation tool for managing dependencies and building the project  
+- 🛠️ **Allure** – Test reporting framework  
+- 🛠️ **IntelliJ** – IDE for development and test execution  
 
 ---
 
 ## 📋 **Prerequisites** 📋
 
-Before starting, ensure the following tools are installed:
+Ensure the following tools are installed:
 
-- **Java**  
-- **Gradle**  
-- **Allure**  
+- [🔗 Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [🔗 Gradle](https://gradle.org/install/)
+- [🔗 Allure](https://docs.qameta.io/allure/)
+- [🔗 IntelliJ](https://www.jetbrains.com/idea/download/)
 
 ---
 
