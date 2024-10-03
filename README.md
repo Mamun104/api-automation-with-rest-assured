@@ -27,6 +27,22 @@ Ensure the following tools are installed:
 
 ---
 
+## 📁 Project Structure Overview
+
+![image](https://github.com/user-attachments/assets/d3f214a6-55b9-4548-b11c-28197fa67dd0)
+---
+### Explanation:
+- **`src/main/java/org/example/`**: Contains the main application code, including the entry point (`Main.java`).
+- **`src/test/java/`**: Contains the test-related code organized in separate packages:
+  - `controller/setup/`: Test controllers, such as `User.java`.
+  - `model/`: Models representing data structures used in testing.
+  - `setup/`: Setup configurations for the test environment.
+  - `testrunner/`: Test runner classes, like `UserTestRunner.java`.
+  - `utils/`: Utility classes for common test functions.
+- **`src/test/resources/`**: Test resources like `suites` for configuring test execution.
+- **`config.properties`**: Configuration file for specifying test settings and properties.
+
+---
 ## 🔍 **Test Scenarios** 🔍
 
 ### **User Login** 🔑
