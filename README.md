@@ -31,17 +31,36 @@ Ensure the following tools are installed:
 
 ![image](https://github.com/user-attachments/assets/d3f214a6-55b9-4548-b11c-28197fa67dd0)
 ---
-### Explanation:
-- **`src/main/java/org/example/`**: Contains the main application code, including the entry point (`Main.java`).
-- **`src/test/java/`**: Contains the test-related code organized in separate packages:
-  - `controller/setup/`: Test controllers, such as `User.java`.
-  - `model/`: Models representing data structures used in testing.
-  - `setup/`: Setup configurations for the test environment.
-  - `testrunner/`: Test runner classes, like `UserTestRunner.java`.
-  - `utils/`: Utility classes for common test functions.
-- **`src/test/resources/`**: Test resources like `suites` for configuring test execution.
-- **`config.properties`**: Configuration file for specifying test settings and properties.
 
+### 🗂️ Directory Structure Explanation
+
+- **`src/main/java/org/example/`**  
+  *Contains the main application code, including the entry point file (`Main.java`).*
+
+- **`src/test/java/`**  
+  *Holds the test-related code, organized into separate packages:*
+
+  - 📂 **`controller/setup/`**  
+    - *Test controllers, such as `User.java`, used for managing user-related test operations.*
+
+  - 📂 **`model/`**  
+    - *Models representing data structures used in testing. E.g., `UserModel.java`.*
+
+  - 📂 **`setup/`**  
+    - *Setup configurations for the test environment, like `Setup.java`.*
+
+  - 📂 **`testrunner/`**  
+    - *Test runner classes, such as `UserTestRunner.java`, which execute the test cases.*
+
+  - 📂 **`utils/`**  
+    - *Utility classes like `Utils.java` for common test functions.*
+
+- **`src/test/resources/`**  
+  *Contains test resources, such as `suites/`, for configuring test execution.*
+
+- **`config.properties`**  
+  *A configuration file for specifying test settings and properties.*
+  
 ---
 ## 🔍 **Test Scenarios** 🔍
 
