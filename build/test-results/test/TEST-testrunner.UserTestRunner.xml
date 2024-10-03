@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testrunner.UserTestRunner" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-10-03T11:50:02" hostname="AMINUR-RAHMAN-5" time="6.107">
+  <properties/>
+  <testcase name="userDoNotLoginWithInvalidEmail" classname="testrunner.UserTestRunner" time="2.48"/>
+  <testcase name="userDoNotLoginWithInvalidPassword" classname="testrunner.UserTestRunner" time="0.662"/>
+  <testcase name="userDoNotLoginWithInvalidEmailAndValidPassword" classname="testrunner.UserTestRunner" time="0.834"/>
+  <testcase name="userDoNotLoginWithValidEmailAndInvalidPassword" classname="testrunner.UserTestRunner" time="0.531"/>
+  <testcase name="userDoNotLoginWithValidCredentials" classname="testrunner.UserTestRunner" time="0.557"/>
+  <testcase name="testCreateUser" classname="testrunner.UserTestRunner" time="0.439"/>
+  <testcase name="searchUser" classname="testrunner.UserTestRunner" time="0.057"/>
+  <testcase name="updateUser" classname="testrunner.UserTestRunner" time="0.481"/>
+  <system-out><![CDATA[user not found
+QpwL5tke4Pnpja7X4
+user not found
+QpwL5tke4Pnpja7X4
+QpwL5tke4Pnpja7X4
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
